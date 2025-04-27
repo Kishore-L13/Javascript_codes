@@ -13,6 +13,7 @@ function groupBy(arr, key) {
 const a = [
     { name: "Abc", age: "25" },
     { name: "efg", age: "25" },
+    { name: "xyz", age: "30" },
     { name: "xyz", age: "30" }
   ];
   
