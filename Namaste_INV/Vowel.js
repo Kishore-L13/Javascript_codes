@@ -9,4 +9,4 @@ const Vowel = (str) => {
     }
     return count;
 }
-console.log(Vowel("abca")); // Output: 2
+console.log(Vowel("hello")); // Output: 2
