@@ -1,8 +1,8 @@
 function counterFunc() {
   let count = 0;
   return {
-    increment: () => ++count,
-    decrement: () => --count
+    increment:() => ++count,
+    decrement:() => --count
   };
 }
 
