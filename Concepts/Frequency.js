@@ -5,12 +5,8 @@ const sentences = [
 ];
 
 const MostFreqTop3 = (str) => {
-  const words = str
-    .join(" ")
-    .replace(/[^\w\s]/g, "") // remove punctuation
-    .toLowerCase()
-    .split(/\s+/);
-
+     const text = sentences.join(" ").toLowerCase();
+  const words = text.split(/\s+/);
   const freqMap = {};
   for (let word of words) {
     freqMap[word] = (freqMap[word] || 0) + 1;
